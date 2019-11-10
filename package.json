@@ -6,5 +6,9 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "notify": "jest --notify --config=jest.config.js"
   }
 }
