@@ -5,7 +5,11 @@
   "author": "Jack Hu <hutufeia2009@sina.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.22",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.7.2"
@@ -13,5 +17,11 @@
   "scripts": {
     "test": "jest",
     "notify": "jest --notify --config=jest.config.js"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
