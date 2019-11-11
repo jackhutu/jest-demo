@@ -13,5 +13,8 @@
   "scripts": {
     "test": "jest",
     "notify": "jest --notify --config=jest.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
