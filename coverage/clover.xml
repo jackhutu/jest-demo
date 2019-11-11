@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573453596764" clover="3.2.0">
-  <project timestamp="1573453596764" name="All files">
+<coverage generated="1573471022945" clover="3.2.0">
+  <project timestamp="1573471022945" name="All files">
     <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="31" coveredelements="31" complexity="0" loc="23" ncloc="23" packages="1" files="5" classes="5"/>
     <file name="Count.tsx" path="/Users/hutu/study/test-work/jest-demo/src/Count.tsx">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*",
-    "__test__/**/*"
+    "__test__/**/*", "__test__/enzyme_config.js"
   ],
   "exclude": [
     "node_modules",
