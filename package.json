@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test": "jest",
-    "notify": "jest --notify --config=jest.config.js"
+    "notify": "jest --notify --config=jest.config.js",
+    "update-snapshots": "jest -u"
   },
   "dependencies": {
     "react": "^16.11.0",
