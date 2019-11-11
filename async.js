@@ -8,3 +8,9 @@ export default {
       .catch(error => console.log(error));
   }
 }
+
+export function setTimeoutCallback (cb){
+  setTimeout(()=>{
+    cb('my callback')
+  },1000)
+}
