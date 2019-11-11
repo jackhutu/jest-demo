@@ -14,3 +14,9 @@ export function setTimeoutCallback (cb){
     cb('my callback')
   },1000)
 }
+
+export async function fetchPostsList(callback) {
+  return axios.get('https://jsonplaceholder.typicode.com/posts').then(res => {
+    return callback(res.data);
+  })
+}
