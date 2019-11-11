@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573451580852" clover="3.2.0">
-  <project timestamp="1573451580852" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="12" coveredelements="12" complexity="0" loc="9" ncloc="9" packages="1" files="3" classes="3"/>
+<coverage generated="1573452545986" clover="3.2.0">
+  <project timestamp="1573452545986" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="20" coveredelements="20" complexity="0" loc="15" ncloc="15" packages="1" files="4" classes="4"/>
+    <file name="Count.tsx" path="/Users/hutu/study/test-work/jest-demo/src/Count.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
     <file name="Example.tsx" path="/Users/hutu/study/test-work/jest-demo/src/Example.tsx">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
