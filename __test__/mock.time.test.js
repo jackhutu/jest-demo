@@ -1,4 +1,4 @@
-const getDouble = require('./timeout')
+const getDouble = require('../src/timeout')
 
 jest.useFakeTimers();
 const mockFn = jest.fn();
