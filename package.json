@@ -7,22 +7,26 @@
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^10.4.7",
+    "@testing-library/react-hooks": "^3.3.0",
+    "@testing-library/user-event": "^12.0.12",
     "babel-jest": "^24.9.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "jest": "^24.9.0"
+    "jest": "^26.1.0"
   },
   "scripts": {
     "test": "jest",
-    "test:force": "jest -u",
+    "test:u": "jest -u",
     "notify": "jest --notify --config=jest.config.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "msw": "^0.19.5",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^7.2.0",
